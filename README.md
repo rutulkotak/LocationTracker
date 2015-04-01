@@ -21,3 +21,4 @@ keytool -list -v -keystore "%USERPROFILE%\.android\debug.keystore" -alias androi
    Go to menu “APIs & auth –> Credentials” in ‘Public API access’ click create new Key button. 
    Then used the SHA1 key generated and the android application package to create and get the Android API key.
 5. Add Google Play Services to project dependency. Just add the following in Gradle dependencies.
+   compile 'com.google.android.gms:play-services:6.5.87'
